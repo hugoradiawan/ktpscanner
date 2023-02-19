@@ -1,0 +1,51 @@
+name: scannerktp
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+
+  #==========KTP-Scanner==========#
+  csv: ^5.0.1
+  #Android O - IOS O - Web O
+  #https://pub.dev/packages/csv
+  change_case: ^1.1.0
+  #Android O - IOS O - Web O
+  #https://pub.dev/packages/change_case
+  string_similarity: ^2.0.0
+  #Android O - IOS O - Web O
+  #https://pub.dev/packages/string_similarity
+  google_mlkit_text_recognition: ^0.5.0
+  #Android O - IOS O - Web O
+  #https://pub.dev/packages/google_ml_kit
+  flutter_tflite: ^1.0.1
+  #Android X - IOS X
+  #https://pub.dev/packages/tflite
+  camera: ^0.10.3
+  #Android X - IOS X - Web O
+  #https://pub.dev/packages/camera
+  image: ^3.2.0
+  #Android O - IOS O - Web O
+  #https://pub.dev/packages/image
+  flutter_exif_rotation: ^0.5.1
+  #Android O - IOS O
+  #https://pub.dev/packages/flutter_exif_rotation
+  intl: ^0.18.0
+  #Android O - IOS O
+  #https://pub.dev/packages/get
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

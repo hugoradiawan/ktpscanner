@@ -1,0 +1,9 @@
+const List<String> agamaList = [
+  'KEPERCAYAAN TERHADAP TUHAN YME',
+  'ISLAM',
+  'KRISTEN PROTESTAN',
+  'KRISTEN KATOLIK',
+  'BUDDHA',
+  'HINDU',
+  'KONGHUCU',
+];

@@ -1,0 +1,10 @@
+const List<String> statusList = [
+  'BELUM KAWIN',
+  'KAWIN',
+  'KAWIN TERCATAT',
+  'KAWIN BELUM TERCATAT',
+  'CERAI MATI',
+  'CERAI HIDUP',
+  'CERAI HIDUP TERCATAT',
+  'CERAI HIDUP BELUM TERCATAT'
+];
